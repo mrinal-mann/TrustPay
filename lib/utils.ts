@@ -207,7 +207,7 @@ export const authFormSchema = (type: string) =>
     city: type === "sign-in" ? z.string().optional() : z.string().max(20),
 
     state:
-      type === "sign-in" ? z.string().optional() : z.string().min(3).max(2),
+      type === "sign-in" ? z.string().optional() : z.string().min(3),
     postalcode:
       type === "sign-in" ? z.string().optional() : z.string().min(3).max(6),
     dob: type === "sign-in" ? z.string().optional() : z.string().min(3),
