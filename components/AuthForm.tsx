@@ -87,7 +87,11 @@ const AuthForm = ({ type }: { type: string }) => {
         </div>
       </header>
       {user ? (
-        <div className="flex flex-col gap-4">{/* <Link></Link> */}</div>
+        <div className="flex flex-col gap-4">
+          {
+            // plaid
+          }
+        </div>
       ) : (
         <>
           <Form {...form}>
