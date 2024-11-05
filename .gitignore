@@ -39,4 +39,7 @@ next-env.d.ts
 .env.sentry-build-plugin
 
 # environment variable
-.env
+*.env
+*.env.example
+*.env.local
+*.env.staging
